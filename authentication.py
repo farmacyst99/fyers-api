@@ -88,9 +88,7 @@ if client_id:
 else:
     print("Client ID not found.")
 
-
-# ...existing code...
-
+'''
 # Define .env file path and initialize env_vars dictionary
 env_path = ".env"
 env_vars = {}
@@ -120,3 +118,5 @@ else:
 with open(env_path, "w") as f:
     for key, value in env_vars.items():
         f.write(f"{key}={value}\n")
+
+'''
